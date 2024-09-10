@@ -1,3 +1,7 @@
+
+An API (Application Programming Interface) is a set of rules and protocols that allows one piece of software to interact with another. It defines how different software components should communicate, share data, and request services from each other. APIs are widely used for web development, allowing different applications (websites, mobile apps, services) to connect with servers and databases.
+
+
 API Methods (HTTP Methods)
 When interacting with a web-based API, the following HTTP methods are typically used. Each method has a specific purpose and meaning.
 
@@ -93,3 +97,19 @@ Response:
 {
   "message": "User deleted successfully"
 }
+
+
+
+API Example in a RESTful Web Service:
+Imagine a simple API for managing users:
+
+GET /users: Retrieve a list of users.
+GET /users/{id}: Retrieve a single user by ID.
+POST /users: Create a new user.
+PUT /users/{id}: Update a user’s information entirely.
+PATCH /users/{id}: Update part of a user’s information.
+DELETE /users/{id}: Delete a user by ID.
+This structure is typical for RESTful APIs (Representational State Transfer), which are widely used to structure and manage APIs.
+
+Conclusion:
+An API allows systems to communicate, and HTTP methods provide ways to interact with resources. Each method serves a different purpose, such as retrieving, creating, updating, or deleting resources.
