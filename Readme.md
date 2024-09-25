@@ -8,6 +8,8 @@ When interacting with a web-based API, the following HTTP methods are typically 
 1.GET
 
 Purpose: To retrieve data from the server.
+Used to GET some responses
+Data sent in query strings(limited,string data & visible in URL)
 Example: Getting a list of users from a server.
 Usage:
 GET /users
@@ -29,6 +31,9 @@ Response:
 2.POST
 
 Purpose: To send data to the server and create a new resource.
+Used to POST something(for create/Write/Update)
+Data sent via request body(any type of data)
+
 Example: Creating a new user.
 Usage:
 POST /users

@@ -1,0 +1,2 @@
+A function that creates object
+While factory functions are a useful tool for object creation in JavaScript, they may not always be the best choice depending on the context. Considerations around performance, readability, inheritance, and context binding can lead developers to favor class-based approaches or constructor functions in certain scenarios. 
